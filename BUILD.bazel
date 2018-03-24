@@ -1,4 +1,6 @@
+
 cc_inc_library(
   name = "headers",
   hdrs = glob(["**/*.h"]),
+  visibility = ["//visibility:public"],
 )
